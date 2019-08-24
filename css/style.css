@@ -5,3 +5,13 @@ body{
 .template-footer {
     height: 200px;
 }
+
+@media (max-width: 768px) {
+    #subject-title{
+        font-size: 28px;
+    }
+
+    #subject-course, #subject-teacher{
+        font-size: 18px;
+    }
+}

@@ -31,8 +31,8 @@ window.onload = function() {
         data = data.shift();
 
         subject.querySelector('#subject-title').innerHTML = data.title;
-        subject.querySelector('#subject-course').innerHTML = `<b>Curso:</b> ${data.course}`;
-        subject.querySelector('#subject-teacher').innerHTML = `<b>Prof.:</b> ${data.teacher}`;
+        subject.querySelector('#subject-course').innerHTML = `Curso: ${data.course}`;
+        subject.querySelector('#subject-teacher').innerHTML = `Prof.: ${data.teacher}`;
 
         header.appendChild(subject);
     } 
@@ -67,24 +67,22 @@ window.onload = function() {
             let accordion = document.querySelector(`#${idAccordion}`);
             let tab = accordion.querySelector(`#${idTab}`);
             
-            if (tab != null) {
-                addLink();
-            } else {
+            if (tab === null) {
                 addTab();
-                addLink();
             }
+            
+            addLink();
 
             function addLink(){
                 let list = document.getElementById(`${idList}`);
-                let line = document.createElement('li');
                 let row = document.createElement('a');
 
                 row.innerHTML = link.name;
                 row.href = link.href;
-                row.target = "blank";                
-                
-                line.appendChild(row);
-                list.appendChild(line);
+                row.target = "blank";
+                row.classList.add('list-group-item', 'list-group-item-action');
+
+                list.appendChild(row);
             }
 
             function addTab() {
