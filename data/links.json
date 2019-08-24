@@ -2,103 +2,103 @@
     {
         "name" : "Ementa da Disciplina",
         "href" : "https://drive.google.com/open?id=1Sf2-V8uRZ302wkf2NLcf37YV0t4_rks0",
-        "tag" : "PROG-2",
+        "tag" : "pro-2",
         "slug" : "Auxiliares"
     },
     {
         "name" : "Apostila",
         "href" : "https://marciocesarrocha.files.wordpress.com/2012/05/livro_-_estruturas_de_dados_e_algoritmos_em_c.pdf",
-        "tag" : "PROG-2",
+        "tag" : "pro-2",
         "slug" : "Auxiliares"
     },
     {
         "name" : "Livro Básico 1",
         "href" : "http://www.inf.ufpr.br/lesoliveira/download/c-completo-total.pdf",
-        "tag" : "PROG-2",
+        "tag" : "pro-2",
         "slug" : "Livros"
     },
     {
         "name" : "Livro Básico 2",
         "href" : "https://drive.google.com/file/d/0ByKMFGLcg-R1VC14d3ljU3V5Rjg/view",
-        "tag" : "PROG-2",
+        "tag" : "pro-2",
         "slug" : "Livros"
     },
     {
         "name" : "Aula 1 - Introdução à Programação - 14/08/2019",
         "href" : "https://drive.google.com/open?id=1FEHvy638yWlSWt_n7X8DnkNIBV3Tq4dA",
-        "tag" : "PROG-2",
+        "tag" : "pro-2",
         "slug" : "Aulas"
     },
     {
         "name" : "Aula 1 - Leitura Complementar",
         "href" : "https://pt.wikiversity.org/wiki/Introdu%C3%A7%C3%A3o_%C3%A0s_Linguagens_de_Programa%C3%A7%C3%A3o/C_e_C%2B%2B",
-        "tag" : "PROG-2",
+        "tag" : "pro-2",
         "slug" : "Aulas"
     },
     {
         "name" : "Aula 2 - Estrutura Básica, Variáveis,Constantes... - 21/08/2019",
         "href" : "https://drive.google.com/open?id=12kJgrtEGpWBLftGU9VeeIq3QZ05897du",
-        "tag" : "PROG-2",
+        "tag" : "pro-2",
         "slug" : "Aulas"
     },
     {
         "name" : "Download do Dev Cpp",
         "href" : "https://sourceforge.net/projects/orwelldevcpp",
-        "tag" : "PROG-2",
-        "slug" : "Dowloads"
+        "tag" : "pro-2",
+        "slug" : "Downloads"
     },
     {
         "name" : "Ementa da Disciplina",
         "href" : "https://drive.google.com/open?id=1ZQq-jii6kfChmI-6x_u2e_tDwmcDK7l1",
-        "tag" : "AMS-4",
+        "tag" : "ams-4",
         "slug" : "Auxiliares"
     },
     {
         "name" : "Livro Básico 1",
         "href" : "https://www.academia.edu/31449888/TMP08_-_engenharia_de_software_9_edicao",
-        "tag" : "AMS-4",
+        "tag" : "ams-4",
         "slug" : "Livros"
     },
     {
         "name" : "Livro Básico 2",
         "href" : "https://www.academia.edu/35326870/Principios_De_Analise_E_Projeto_-_Eduardo_Bezerra.pdf",
-        "tag" : "AMS-4",
+        "tag" : "ams-4",
         "slug" : "Livros"
     },
     {
         "name" : "Aula 1 - Introdução e Sistemas de Informação - 13/08/2019",
         "href" : "https://drive.google.com/open?id=1QwDGPT7zr_Heqks5eluSQnFzUfzgSnaU",
-        "tag" : "AMS-4",
+        "tag" : "ams-4",
         "slug" : "Aulas"
     },
     {
         "name" : "Texto de Apoio",
         "href" : "https://drive.google.com/open?id=16AIbqW-fLyacQ_w7ObiqE8tm4mv_bxAl",
-        "tag" : "AMS-4",
+        "tag" : "ams-4",
         "slug" : "Aulas"
     },
     {
         "name" : "Aula 2 - Visão Geral Escopo, UML, Metodologias, Ferramentas CASE - 20/08/2019",
         "href" : "https://drive.google.com/open?id=1pZgdlnYa7JHPoyS5JyQuZHaJOtvx1_sx",
-        "tag" : "AMS-4",
+        "tag" : "ams-4",
         "slug" : "Aulas"
     },
     {
         "name" : "Modelo de Documento",
         "href" : "https://drive.google.com/open?id=1LDb0UY437dmEk9_z5_R7vU9Nn-6sEN7D",
-        "tag" : "AMS-4",
+        "tag" : "ams-4",
         "slug" : "Aulas"
     },
     {
         "name" : "Template",
         "href" : "https://drive.google.com/open?id=1rsUMlagjSdRd5M24D1dTqKoScBl3Y3s9",
-        "tag" : "AMS-4",
+        "tag" : "ams-4",
         "slug" : "Aulas"
     },
     {
         "name" : "Download da Ferramenta ASTA",
         "href" : "http://astah.net/download",
-        "tag" : "AMS-4",
+        "tag" : "ams-4",
         "slug" : "Downloads"
     }
 ]
