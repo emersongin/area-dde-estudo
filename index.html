@@ -8,16 +8,20 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
 
         <title>Área do Aulo</title>
     </head>
     <body>
         <header>
             <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 id="subject-title" class="display-4"><!-- Title Subject --></h1>
-                    <h5 id="subject-course" class="lead"><!-- Course --></h5>
-                    <h5 id="subject-teacher" class="lead"><!-- Teacher --></h5>
+                <div id="header-content" class="container">
+                    <template id="template-header">
+                        <h1 id="subject-title" class="display-4"><!-- Title Subject --></h1>
+                        <h5 id="subject-course" class="lead"><!-- Course --></h5>
+                        <h5 id="subject-teacher" class="lead"><!-- Teacher --></h5>
+                    </template>
                 </div>
             </div>
         </header>
@@ -28,23 +32,49 @@
                     <template id="template-course">
                             <div class="col-md-6 col-12 d-flex justify-content-center">
                                 <div class="w-100 card border-secondary mb-3">
-                                    <div class="card-header text-center"><!-- Title Course --></div>
+                                    <div class="card-header text-center">
+                                        <!-- Title Course -->
+                                    </div>
                                     <div class="card-body text-secondary">
-
+                                        <!-- Links -->
                                     </div>
                                 </div>
                             </div>
+                    </template>
+                    <template id="template-accordion">
+                        <div class="accordion" id="template-accordion-id">
+                            <!-- Accordion Tabs -->
+                        </div>
+                    </template>
+                    <template id="template-tab">
+                        <div class="card">
+                            <div class="card-header" id="template-tab-id">
+                                <h2 class="mb-0">
+                                    <button id="template-tab-button-id" class="btn btn-link" type="button" data-toggle="collapse" data-target="#template-tab-collapse-id" aria-expanded="true" aria-controls="template-tab-collapse-id">
+                                        <!-- Text Title Collapse -->
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="template-tab-collapse-id" class="collapse hide" aria-labelledby="template-tab-id" data-parent="#template-accordion-id">
+                                <div class="card-body">
+                                        <ul id="template-tab-list-id">
+                                            <!-- Content Links -->
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
                     </template>
                 </div>
             </div>
         </main>
 
-        <footer>
+        <footer class="template-footer d-flex align-items-center">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="d-flex flex-column text-center">
-                        <p>Contato</p>
-                        <p>Email</p>
+                        <p>(081) 9.8177-5102</p>
+                        <a href="mailto:marconeslira@gmail.com?Subject=Hello%20again" target="_top">marconeslira@gmail.com</a>
+                        <p></p>
                     </div>
                 </div>
             </div>
