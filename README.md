@@ -8,7 +8,7 @@ Utilizar serviço de http.
 faça clone do Repositório
 
 ```
-https://github.com/emersongin/student-portal.git
+https://github.com/emersongin/area-do-aluno.git
 ```
 ## Utilização
 
