@@ -72,7 +72,7 @@
         "slug" : "Aulas"
     },
     {
-        "name" : "Texto de Apoio",
+        "name" : "Aula 1 - Texto de Apoio",
         "href" : "https://drive.google.com/open?id=16AIbqW-fLyacQ_w7ObiqE8tm4mv_bxAl",
         "tag" : "ams-4",
         "slug" : "Aulas"
@@ -84,13 +84,13 @@
         "slug" : "Aulas"
     },
     {
-        "name" : "Modelo de Documento",
+        "name" : "Aula 2 - Modelo de Documento",
         "href" : "https://drive.google.com/open?id=1LDb0UY437dmEk9_z5_R7vU9Nn-6sEN7D",
         "tag" : "ams-4",
         "slug" : "Aulas"
     },
     {
-        "name" : "Template",
+        "name" : "Aula 2 - Template",
         "href" : "https://drive.google.com/open?id=1rsUMlagjSdRd5M24D1dTqKoScBl3Y3s9",
         "tag" : "ams-4",
         "slug" : "Aulas"

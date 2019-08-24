@@ -1,7 +1,10 @@
-window.onload = function() {
+(function(){
+    window.onload = ready;
 
-    loadHeader();
-    loadMain();
+    function ready() {
+        loadHeader();
+        loadMain();
+    };
 
     function loadHeader() {
         loadData("data/subjects.json", createHeader);
@@ -57,6 +60,7 @@ window.onload = function() {
     }
 
     function createLinks(data) {
+        
         data.forEach(link => {
             let idAccordion = `accordion-${link.tag}`;
             let idTab = `tab-${link.tag}-${link.slug}`;
@@ -67,10 +71,7 @@ window.onload = function() {
             let accordion = document.querySelector(`#${idAccordion}`);
             let tab = accordion.querySelector(`#${idTab}`);
             
-            if (tab === null) {
-                addTab();
-            }
-            
+            if (tab === null) { addTab(); }
             addLink();
 
             function addLink(){
@@ -105,4 +106,4 @@ window.onload = function() {
         });
         
     }
-};
+})()
