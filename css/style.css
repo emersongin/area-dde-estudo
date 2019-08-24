@@ -6,6 +6,10 @@ body{
     height: 200px;
 }
 
+.bg-tertiary{
+    background-color: #1877F2;
+}
+
 @media (max-width: 768px) {
     #subject-title{
         font-size: 28px;
