@@ -1,20 +1,20 @@
 # Área do Aulo
-projeto desenvolvido para auxiliar aulos do curso de ADS faculdade Mauricio de Nassau.
+projeto desenvolvido para auxiliar os aulos do curso de ADS - faculdade Mauricio de Nassau Caruaru/PE.
 
 ## Requisitos
-Utilizar serviço de http.
+Utilizar em um serviço de http.
 
 ### Instalando
 faça clone do Repositório
 
 ```
-https://github.com/emersongin/area-do-aluno.git
+git clone https://github.com/emersongin/area-do-aluno.git
 ```
 ## Utilização
 
-O arquivos na pasta data armazenam dados JSON; Uma matriz com objetos.
+Os arquivos na pasta /data armazenam dados em JSON; Uma matriz de objetos.
 
-O arquvo subjects.json, possui um objeto com os seguinte atributos:
+O arquvo <b>subjects.json</b> possui uma matriz com um objeto que contem os seguinte atributos:
 
 ```
 {
@@ -24,22 +24,22 @@ O arquvo subjects.json, possui um objeto com os seguinte atributos:
 }
 ```
 
-O arquvo courses.json, possui objetos com os seguinte atributos:
+O arquvo <b>courses.json</b> possui uma matriz de objetos que contem os seguinte atributos:
 
 ```
 {
-    "title" : "titulo da cadeira que está sendo ministrada",
-    "tag" : "identificador no modelo HTML para a cadeira" ex: "programacao-1"
+    "title" : "titulo da disciplina que está sendo ministrada",
+    "tag" : "identificador no modelo HTML para a disciplina" ex: "programacao-1"
 }
 ```
 
-O arquvo links.json, possui objetos com os seguinte atributos:
+O arquvo <b>links.json</b> possui uma matriz de objetos que contem os seguinte atributos:
 
 ```
 {
     "name" : "nome para identificar o link",
-    "href" : "link da URL",
-    "tag" : "identificador da cadeira, deve ser o mesmo criado no arquivo courses.json", ex: "programacao-1"
+    "href" : "URL do endereço do link",
+    "tag" : "identificador da disciplina, deve ser o mesmo criado no arquivo courses.json", ex: "programacao-1"
     "slug" : "identificador para categoria" ex: "Programação"
 }
 ```
@@ -48,10 +48,10 @@ O arquvo links.json, possui objetos com os seguinte atributos:
 1.0
 
 ## Autor
-Emerson Andrey
+Emerson Andrey G. de Araujo
 
 ## log
-- inspirado no modelo anterior, criado por: Prof. Marcones Lira (facul M. Nassau)
+- modelo inspirado no anterior, criado por: Prof. Marcones Lira (facul M. Nassau)
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - veja [LICENSE.md](LICENSE.md) para detalhes
