@@ -10,6 +10,9 @@ faça clone do Repositório
 ```
 git clone https://github.com/emersongin/area-do-aluno.git
 ```
+## Telas
+![alt text](/screen.png)
+
 ## Utilização
 
 Os arquivos na pasta /data armazenam dados em JSON; Uma matriz de objetos.
