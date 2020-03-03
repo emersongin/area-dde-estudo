@@ -56,4 +56,4 @@ Emerson Andrey Gonçalo de Araujo
 - modelo inspirado no anterior, criado por: Prof. Marcones Lira (UniNassau)
 
 ## Licença
-Este projeto está licenciado sob a licença MIT - veja [LICENSE.md](/LICENSE.md) para detalhes
+Este projeto está licenciado sob a licença MIT - veja [aqui](https://github.com/emersongin/area-do-aluno/blob/master/LICENSE) para mais detalhes
