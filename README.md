@@ -1,11 +1,11 @@
-# Área do Aulo
-projeto desenvolvido para auxiliar os aulos do curso de ADS - faculdade Mauricio de Nassau Caruaru/PE.
+# Área de Estudos  
+Projeto desenvolvido para auxilio dos aulos do curso de ADS - UniNassau Caruaru/PE.
 
 ## Requisitos
-Utilizar em um serviço de http.
+Utilizar em serviço Web com http.
 
 ### Instalando
-faça clone do Repositório
+faça o clone do Repositório e rode em um servidor WEB
 
 ```
 git clone https://github.com/emersongin/area-do-aluno.git
@@ -13,11 +13,10 @@ git clone https://github.com/emersongin/area-do-aluno.git
 ## Telas
 ![alt text](/screen.png)
 
-## Utilização
+## Utilizando
 
-Os arquivos na pasta /data armazenam dados em JSON; Uma matriz de objetos.
-
-O arquvo <b>subjects.json</b> possui uma matriz com um objeto que contem os seguinte atributos:
+Os arquivos na pasta /data armazenam dados em JSON; Uma matriz de objetos.  
+O arquvo <b>subjects.json</b> possui uma matriz com um objeto que contem os seguinte atributos:  
 
 ```
 {
@@ -51,10 +50,10 @@ O arquvo <b>links.json</b> possui uma matriz de objetos que contem os seguinte a
 1.0
 
 ## Autor
-Emerson Andrey G. de Araujo
+Emerson Andrey Gonçalo de Araujo
 
 ## log
-- modelo inspirado no anterior, criado por: Prof. Marcones Lira (facul M. Nassau)
+- modelo inspirado no anterior, criado por: Prof. Marcones Lira (UniNassau)
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - veja [LICENSE.md](LICENSE.md) para detalhes
