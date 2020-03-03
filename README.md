@@ -57,4 +57,4 @@ Emerson Andrey Gonçalo de Araujo
 
 ## Licença
 Licença MIT  
-veja [aqui](https://github.com/emersongin/area-do-aluno/blob/master/LICENSE) para mais detalhes
+veja [aqui](https://github.com/emersongin/area-do-aluno/blob/master/LICENSE) para mais detalhes.
